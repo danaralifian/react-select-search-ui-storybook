@@ -32,7 +32,7 @@ const meta = {
     withSearch: { control: "boolean" },
     portal: { control: "boolean" },
     zIndex: { control: "number" },
-    options: { control: "object" },
+    className: { control: "text" },
   },
   // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
   args: { onChange: fn() },
@@ -52,5 +52,7 @@ export const SelectSearch: Story = {
     multiple: false,
     withSearch: false,
     zIndex: 0,
+    onChange: fn(),
+    optionRender: fn(),
   },
 };
