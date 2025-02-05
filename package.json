@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
-    "serve-storybook": "serve storybook-static"
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "serve-storybook": "serve storybook-static",
+    "chromatic": "npx chromatic --project-token=chpt_16f97e8c821846d"
   },
   "dependencies": {
     "next": "14.2.23",
