@@ -5,13 +5,12 @@ import "react-select-search-ui/dist/style.css";
 import { Select } from "react-select-search-ui";
 
 const OPTIONS = [
-  { label: "All", value: "all" },
-  { label: "Active All", value: "active" },
-  { label: "Completed All All", value: "completed" },
-  { label: "Option 4", value: "option-4" },
-  { label: "Option 5", value: "option-5" },
-  { label: "Option 6", value: "option-6" },
-  { label: "Option 7", value: "option-7" },
+  { label: "Option 1", value: "option-1" },
+  { label: "Option with icon", value: "option-with-icon" },
+  { label: "Long Long Option 3", value: "option-3" },
+  { label: "Long Long Long Option 4", value: "option-4" },
+  { label: "Long Long Long Long Option 5", value: "option-5" },
+  { label: "Long Long Long Long Long Option 6", value: "option-6" },
 ];
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
