@@ -53,6 +53,5 @@ export const SelectSearch: Story = {
     withSearch: false,
     zIndex: 0,
     onChange: fn(),
-    optionRender: fn(),
   },
 };
